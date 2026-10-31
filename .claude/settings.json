@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "mcp__atlassian__getVisibleJiraProjects",
+      "mcp__atlassian__getJiraProjectIssueTypesMetadata",
+      "mcp__atlassian__searchJiraIssuesUsingJql",
+      "mcp__atlassian__getJiraIssue"
+    ],
+    "ask": [
+      "mcp__atlassian__createJiraIssue",
+      "mcp__atlassian__editJiraIssue",
+      "mcp__atlassian__addCommentToJiraIssue",
+      "mcp__atlassian__transitionJiraIssue"
+    ],
+    "deny": [
+      "mcp__atlassian__createConfluencePage",
+      "mcp__atlassian__updateConfluencePage"
+    ]
+  }
+}
